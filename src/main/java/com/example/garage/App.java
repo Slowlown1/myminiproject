@@ -29,13 +29,13 @@ public class App {
         System.out.println("5. Enregistrer une réparation");
         System.out.println("6. Afficher toutes les réparations");
         System.out.println("7. Créer une facture pour un client");
-        System.out.println("8. Afficher les détails d'un client (Voitures et Réparations)"); // NOUVELLE OPTION
-        System.out.println("9. Quitter"); // Décalé à 9
+        System.out.println("8. Afficher les détails d'un client (Voitures et Réparations)");
+        System.out.println("9. Quitter");
         System.out.print("Votre choix : ");
         
         if (sc.hasNextInt()) {
             choix = sc.nextInt();
-            sc.nextLine(); // enlever le \n
+            sc.nextLine(); 
         } else {
             System.out.println("Saisie invalide. Veuillez entrer un numéro.");
             sc.nextLine(); 
@@ -95,7 +95,7 @@ public class App {
                 String desc = sc.nextLine();
                 System.out.print("Coût : ");
                 double cout = sc.nextDouble();
-                sc.nextLine(); // Enlever le \n
+                sc.nextLine(); 
 
                 Reparation r = garage.enregistrerReparation(idV, desc, cout);
                 System.out.println("Réparation enregistrée : " + r);
@@ -127,19 +127,19 @@ public class App {
                     f.ajouterLigne(line, montant);
                 }
                 
-                // Sauvegarder la facture dans la base de données
+                
                 Facture factureSauvegardee = factureService.sauvegarderFacture(f);
 
                 System.out.println("FACTURE CRÉÉE (ID: " + factureSauvegardee.getId() + ") : ");
                 System.out.println(factureSauvegardee);
                 break;
 
-            case 8: // NOUVEAU: Afficher le client avec Voitures et Réparations
+            case 8: 
                 System.out.print("ID du client à afficher : ");
                 int idDetail = sc.nextInt();
                 sc.nextLine();
 
-                // L'appel au service va déclencher le chargement en cascade des voitures et réparations
+               
                 java.util.Optional<Client> clientOpt = garage.trouverClientParId(idDetail);
 
                 if (clientOpt.isPresent()) {
@@ -159,7 +159,7 @@ public class App {
                 System.out.println("Choix invalide !");
         }
 
-    } while (choix != 9); // Condition de sortie mise à jour à 9
+    } while (choix != 9); 
 
     sc.close();
 }

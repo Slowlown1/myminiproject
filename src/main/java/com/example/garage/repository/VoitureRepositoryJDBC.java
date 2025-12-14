@@ -19,7 +19,7 @@ public class VoitureRepositoryJDBC implements Repository<Voiture> {
     @Override
     public Voiture save(Voiture entity) {
         
-        // Utilisation de la méthode spécifique du service, la méthode standard est désactivée.
+        
         throw new UnsupportedOperationException("La méthode 'save' standard est dépréciée. Utilisez 'saveVoiturePourClient' dans le Service.");
     }
     
@@ -104,7 +104,7 @@ public class VoitureRepositoryJDBC implements Repository<Voiture> {
         return new Voiture(id, marque, modele, immatriculation);
     }
     
-    // NOUVELLE MÉTHODE (Corrige l'erreur d'appel dans ClientRepositoryJDBC)
+    
     public List<Reparation> trouverReparationsParVoiture(int voitureId) {
         List<Reparation> reparations = new ArrayList<>();
         String SELECT_REPARATIONS_BY_VOITURE = "SELECT * FROM Reparation WHERE voitureId = ?";
@@ -116,7 +116,7 @@ public class VoitureRepositoryJDBC implements Repository<Voiture> {
             
             try (ResultSet rs = stmt.executeQuery()) {
                 while (rs.next()) {
-                    // La table Reparation doit avoir une colonne 'date' de type DATE
+                   
                     Date sqlDate = rs.getDate("date"); 
                     LocalDate dateRep = (sqlDate != null) ? sqlDate.toLocalDate() : LocalDate.now(); 
                     

@@ -40,12 +40,12 @@ public class ClientRepositoryJDBC implements Repository<Client> {
         }
     }
 
-    // MÉTHODE findById MISE À JOUR (Chargement du client + appel aux voitures/réparations)
+    
     @Override
     public Optional<Client> findById(int id) {
         Client client = null;
         
-        // 1. Charger les données de base du Client
+       
         try (Connection conn = DBUtil.getConnection();
              PreparedStatement stmt = conn.prepareStatement(SELECT_BY_ID_SQL)) {
             
@@ -60,7 +60,7 @@ public class ClientRepositoryJDBC implements Repository<Client> {
             e.printStackTrace();
         }
 
-        // 2. Charger les Voitures et leurs Réparations si le Client est trouvé
+       
         if (client != null) {
             List<Voiture> voitures = trouverVoituresParClient(id);
             voitures.forEach(client::ajouterVoiture);
@@ -104,19 +104,17 @@ public class ClientRepositoryJDBC implements Repository<Client> {
         String prenom = rs.getString("prenom");
         String telephone = rs.getString("telephone");
         
-        // Le client est initialisé avec une liste de voitures vide, 
-        // qui sera remplie par findById si nécessaire.
+        
         Client c = new Client(id, nom, prenom, telephone);
         
         return c;
     }
-    
-    // NOUVELLE MÉTHODE (Corrige l'erreur "undefined method")
+   
     public List<Voiture> trouverVoituresParClient(int clientId) {
         List<Voiture> voitures = new ArrayList<>();
         String SELECT_VOITURES_BY_CLIENT = "SELECT * FROM Voiture WHERE client_id = ?";
         
-        // Nécessaire pour charger les réparations de chaque voiture
+      
         VoitureRepositoryJDBC voitureRepo = new VoitureRepositoryJDBC();
 
         try (Connection conn = DBUtil.getConnection();
@@ -126,7 +124,7 @@ public class ClientRepositoryJDBC implements Repository<Client> {
             
             try (ResultSet rs = stmt.executeQuery()) {
                 while (rs.next()) {
-                    // 1. Créer la Voiture (sans réparations pour l'instant)
+                   
                     int voitureId = rs.getInt("id");
                     Voiture v = new Voiture(
                         voitureId,
@@ -134,8 +132,7 @@ public class ClientRepositoryJDBC implements Repository<Client> {
                         rs.getString("modele"),
                         rs.getString("immatriculation")
                     );
-                    
-                    // 2. Charger les Réparations (via VoitureRepository)
+                
                     List<Reparation> reparations = voitureRepo.trouverReparationsParVoiture(voitureId);
                     reparations.forEach(v::ajouterReparation); 
                     
