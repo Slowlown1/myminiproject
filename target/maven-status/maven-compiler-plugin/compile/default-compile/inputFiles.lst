@@ -1,0 +1,14 @@
+C:\Users\USER\Desktop\my-garage\src\main\java\com\example\garage\App.java
+C:\Users\USER\Desktop\my-garage\src\main\java\com\example\garage\model\Client.java
+C:\Users\USER\Desktop\my-garage\src\main\java\com\example\garage\model\Facture.java
+C:\Users\USER\Desktop\my-garage\src\main\java\com\example\garage\model\Identifiable.java
+C:\Users\USER\Desktop\my-garage\src\main\java\com\example\garage\model\Reparation.java
+C:\Users\USER\Desktop\my-garage\src\main\java\com\example\garage\model\Voiture.java
+C:\Users\USER\Desktop\my-garage\src\main\java\com\example\garage\repository\ClientRepositoryJDBC.java
+C:\Users\USER\Desktop\my-garage\src\main\java\com\example\garage\repository\DBUtil.java
+C:\Users\USER\Desktop\my-garage\src\main\java\com\example\garage\repository\FactureRepositoryJDBC.java
+C:\Users\USER\Desktop\my-garage\src\main\java\com\example\garage\repository\ReparationRepositoryJDBC.java
+C:\Users\USER\Desktop\my-garage\src\main\java\com\example\garage\repository\Repository.java
+C:\Users\USER\Desktop\my-garage\src\main\java\com\example\garage\repository\VoitureRepositoryJDBC.java
+C:\Users\USER\Desktop\my-garage\src\main\java\com\example\garage\service\FactureService.java
+C:\Users\USER\Desktop\my-garage\src\main\java\com\example\garage\service\GarageService.java

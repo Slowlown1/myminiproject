@@ -1,20 +1,28 @@
 package com.example.garage.model;
 
 import java.util.Objects;
+import java.util.List;
+import java.util.ArrayList;
 
 public class Voiture implements Identifiable {
     private int id;
     private String marque;
     private String modele;
     private String immatriculation;
+    
+    // NOUVEAU: Liste pour les réparations associées
+    private List<Reparation> reparations; 
 
-    public Voiture() { }
+    public Voiture() { 
+        this.reparations = new ArrayList<>();
+    }
 
     public Voiture(int id, String marque, String modele, String immatriculation) {
         this.id = id;
         this.marque = marque;
         this.modele = modele;
         this.immatriculation = immatriculation;
+        this.reparations = new ArrayList<>(); // Initialisation de la liste
     }
 
     @Override
@@ -31,9 +39,33 @@ public class Voiture implements Identifiable {
     public String getImmatriculation() { return immatriculation; }
     public void setImmatriculation(String immatriculation) { this.immatriculation = immatriculation; }
 
+    // NOUVEAU: Méthode pour l'ajout de réparations (utilisée par le Repository)
+    public void ajouterReparation(Reparation reparation) {
+        this.reparations.add(reparation);
+    }
+    
+    public List<Reparation> getReparations() {
+        return reparations;
+    }
+    
     @Override
     public String toString() {
-        return "Voiture{" + "id=" + id + ", " + marque + " " + modele + " (" + immatriculation + ")}";
+        StringBuilder sb = new StringBuilder();
+        sb.append("\n  - Voiture ID: ").append(id)
+          .append(", Immatriculation: ").append(immatriculation)
+          .append(", Marque: ").append(marque)
+          .append(", Modèle: ").append(modele);
+        
+        // Affichage des réparations (maintenant que la liste existe)
+        if (!reparations.isEmpty()) {
+            sb.append("\n    [RÉPARATIONS] : ");
+            for (Reparation r : reparations) {
+                sb.append("\n      > ").append(r); 
+            }
+        } else {
+            sb.append(" (Aucune réparation enregistrée)");
+        }
+        return sb.toString();
     }
 
     @Override

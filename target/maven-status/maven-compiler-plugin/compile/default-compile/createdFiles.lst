@@ -1,0 +1,14 @@
+com\example\garage\repository\DBUtil.class
+com\example\garage\service\GarageService.class
+com\example\garage\repository\FactureRepositoryJDBC.class
+com\example\garage\repository\ReparationRepositoryJDBC.class
+com\example\garage\model\Reparation.class
+com\example\garage\App.class
+com\example\garage\model\Voiture.class
+com\example\garage\model\Client.class
+com\example\garage\repository\VoitureRepositoryJDBC.class
+com\example\garage\repository\ClientRepositoryJDBC.class
+com\example\garage\repository\Repository.class
+com\example\garage\model\Identifiable.class
+com\example\garage\service\FactureService.class
+com\example\garage\model\Facture.class
