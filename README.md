@@ -23,7 +23,7 @@
      05. Les technologies utilisées
      06. Tester l’application 
      07. Conclusion
-# INTRODUCTION
+# 01 INTRODUCTION
       Dans le secteur de la réparation automobile, la croissance d'une clientèle entraîne inévitablement une 
       complexification exponentielle des tâches administratives et opérationnelles. Les garagistes, dont le 
       cœur de métier est avant tout technique,se retrouvent souvent submergés par :
@@ -37,7 +37,7 @@
       Cette gestion manuelle fragmentée nuit à la fois à la productivité de l'atelier, à la qualité du service 
       client et à la fiabilité de la comptabilité. Il existe donc un besoin critique de rationalisation et de
       centralisation des données.
-# PROBLEMATIQUE ET SOLUTION
+# 02 PROBLEMATIQUE ET SOLUTION
    + Multiplicité des supports : Fiches clients papier, carnets de rendez-vous, bons de travail, factures carbone, commandes fournisseurs
       - chaque document vit séparément.
    + Absence de centralisation : Aucun point unique de vérité. L'historique d'un véhicule peut être réparti entre le classeur des clients, 
@@ -55,20 +55,20 @@
     Développement d’une application Java en mode console
     Utilisation de structures en mémoire pour gérer les données
     Organisation claire du code grâce à une architecture modulaire
-# FONCTIONNALITÉ 
+# 03 FONCTIONNALITÉ 
     Ajout, affichage et gestion des clients
     Gestion des véhicules (marque, modèle, immatriculation)
     Enregistrement des réparations (date, description, coût)
     Calcul et affichage des factures
     Exécution complète en mode console
- # OBJECTIFS DU PROJETÉ   
+ # 04 OBJECTIFS DU PROJETÉ   
     Gérer les clients du garage
     Associer des véhicules aux clients
     Enregistrer les réparations effectuées
     Générer une facture à partir des réparations
     Appliquer les concepts de la programmation orientée objet en Java
     
-# LES TECHNOLOGIES UTILISÉES 
+# 05 LES TECHNOLOGIES UTILISÉES 
     Langage : Java                       
     Programmation orientée objet
     Mode console
@@ -86,7 +86,7 @@
   <img width="524" height="375" alt="image" src="https://github.com/user-attachments/assets/80d3f629-61fc-493b-8aca-94fa922224a0" />
 
 
-# TESTER D'APPLICATION
+# 06 TESTER D'APPLICATION
   Ce test valide le bon fonctionnement du mécanisme de navigation entre les classes principales de l’application.
   
   <img width="1799" height="475" alt="image" src="https://github.com/user-attachments/assets/c353b016-7ca2-4280-be95-793be86360c7" />
@@ -100,7 +100,7 @@
     Affichage des données clients depuis la base de données.
   <img width="1846" height="360" alt="image" src="https://github.com/user-attachments/assets/b08f7ee6-7be1-4823-8523-1686811f7de6" />
 
-# CONCLUSION
+# 07 CONCLUSION
    Pour conclure, nous avons développé une application robuste et complète qui répond à tous les besoins d'un garage
    Nous avons non seulement créé l'intégralité du cycle (Client à Facture), mais nous avons aussi géré la complexité du 
    chargement en cascade, prouvant la fiabilité de notre accès aux données. Ce projet est solide, il est basé sur de bonnes pratiques
