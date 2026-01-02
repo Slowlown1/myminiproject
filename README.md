@@ -65,8 +65,7 @@
     Appliquer les concepts de la programmation orientée objet en Java
     
 # LES TECHNOLOGIES UTILISÉES 
-    Langage : Java                        <img width="1777" height="304" alt="image" src="https://github.com/user-attachments/assets/aa3bb94e-b03a-48b8-b62c-a44b82d0fca5" />
-
+    Langage : Java                       
     Programmation orientée objet
     Mode console
   <img width="1107" height="384" alt="image" src="https://github.com/user-attachments/assets/81fff68e-9df0-4ff2-85cc-e337db5ba59d" />
@@ -80,6 +79,8 @@
      pom.xml
      src/main/java/com/example/garage
      target
+     <img width="524" height="375" alt="image" src="https://github.com/user-attachments/assets/d2df60fa-78f0-493c-860c-d3036655c3e5" />
+
 # TESTER D'APPLICATION
   Ce test valide le bon fonctionnement du mécanisme de navigation entre les classes principales de l’application.
     Enregistrement d’un client
