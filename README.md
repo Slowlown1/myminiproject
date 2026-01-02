@@ -68,7 +68,8 @@
     Langage : Java
     Programmation orientée objet
     Mode console
-    <img width="1107" height="384" alt="image" src="https://github.com/user-attachments/assets/b993f1e0-5d46-4efc-9b67-6bc6b417a56d" />       
+  <img width="1107" height="384" alt="image" src="https://github.com/user-attachments/assets/81fff68e-9df0-4ff2-85cc-e337db5ba59d" />
+      
 
 
     Gestion des dépendances.
