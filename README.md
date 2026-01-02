@@ -84,6 +84,7 @@
 
 # TESTER D'APPLICATION
   Ce test valide le bon fonctionnement du mécanisme de navigation entre les classes principales de l’application.
+  
   <img width="1799" height="475" alt="image" src="https://github.com/user-attachments/assets/c353b016-7ca2-4280-be95-793be86360c7" />
 
     Enregistrement d’un client.
