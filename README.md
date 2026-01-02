@@ -84,9 +84,17 @@
 
 # TESTER D'APPLICATION
   Ce test valide le bon fonctionnement du mécanisme de navigation entre les classes principales de l’application.
-    Enregistrement d’un client
-    Enregistrement d’une voiture
-    Affichage des données clients depuis la base de données
+  <img width="1799" height="475" alt="image" src="https://github.com/user-attachments/assets/c353b016-7ca2-4280-be95-793be86360c7" />
+
+    Enregistrement d’un client.
+  <img width="1416" height="544" alt="image" src="https://github.com/user-attachments/assets/d3abb1f9-2555-40ca-a6c9-a097eb6a44c2" />
+
+    Enregistrement d’une voiture.
+   <img width="1804" height="317" alt="image" src="https://github.com/user-attachments/assets/7c9e3742-63cb-49b6-b667-2a9685f69a88" />
+
+    Affichage des données clients depuis la base de données.
+  <img width="1846" height="360" alt="image" src="https://github.com/user-attachments/assets/b08f7ee6-7be1-4823-8523-1686811f7de6" />
+
 # CONCLUSION
     Pour conclure, nous avons développé une application robuste et complète qui répond à tous les besoins d'un garage.
    Nous avons non seulement créé l'intégralité du cycle (Client à Facture), mais nous avons aussi géré la complexité du 
