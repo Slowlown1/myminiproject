@@ -7,11 +7,12 @@
                                    Gestion d’un garage automobile (client,véhicule,réparations,factures)
  Réalisé et Présentée par :                                                                                                                                                 
   SAIF Jamila
- KHALLOUKI Salma  
+ KHALLOUKI Salma
+ 
  MRAZGA Khadija 
                                                                                                                                      
-                                                                                                                      Encadré par:  
-                                                                                                                         BADDI  Youssef
+                                                                                                               Encadré par:  
+                                                                                                                   BADDI  Youssef
 
 # PLAN
      01. Introduction
