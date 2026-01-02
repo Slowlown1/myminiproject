@@ -38,6 +38,7 @@
       client et à la fiabilité de la comptabilité. Il existe donc un besoin critique de rationalisation et de
       centralisation des données.
 # 02 PROBLEMATIQUE ET SOLUTION
+# PROBLÉMATIQUE 
    + Multiplicité des supports : Fiches clients papier, carnets de rendez-vous, bons de travail, factures carbone, commandes fournisseurs
       - chaque document vit séparément.
    + Absence de centralisation : Aucun point unique de vérité. L'historique d'un véhicule peut être réparti entre le classeur des clients, 
