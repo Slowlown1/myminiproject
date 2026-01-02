@@ -1,4 +1,7 @@
 # PAGE DE GARDE
+
+<img width="413" height="197" alt="image" src="https://github.com/user-attachments/assets/5db2e379-7c83-47f5-80bf-b898a7366d70" />
+
 Gestion d’un garage automobile (client,véhicule,réparations,factures)
  Réalisé et Présentée par :                                                                                                                Encadré par:                                     
  KHALLOUKI Salma   MRAZGA Khadija                                                                                                             BADDI  Youssef
