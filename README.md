@@ -4,10 +4,12 @@
 <img width="413" height="197" alt="image" src="https://github.com/user-attachments/assets/5db2e379-7c83-47f5-80bf-b898a7366d70" />          <img width="517" height="205" alt="image" src="https://github.com/user-attachments/assets/536bf9bf-4524-4870-b110-af1bcab92c1d" />
 
 
-                                #  Gestion d’un garage automobile (client,véhicule,réparations,factures)
- Réalisé et Présentée par :                                                                                                                  Encadré par:                       
- KHALLOUKI Salma   MRAZGA Khadija                                                                                                             BADDI  Youssef
- SAIF Jamila
+                                   Gestion d’un garage automobile (client,véhicule,réparations,factures)
+ Réalisé et Présentée par :                                                                                                                  Encadré par:                     
+  SAIF Jamila
+ KHALLOUKI Salma  
+ MRAZGA Khadija                                                                                                                            BADDI  Youssef
+
 # PLAN
      01. Introduction
      02. Problématique & solution
