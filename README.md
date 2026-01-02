@@ -79,7 +79,8 @@
      pom.xml
      src/main/java/com/example/garage
      target
-     <img width="524" height="375" alt="image" src="https://github.com/user-attachments/assets/d2df60fa-78f0-493c-860c-d3036655c3e5" />
+  <img width="524" height="375" alt="image" src="https://github.com/user-attachments/assets/80d3f629-61fc-493b-8aca-94fa922224a0" />
+
 
 # TESTER D'APPLICATION
   Ce test valide le bon fonctionnement du mécanisme de navigation entre les classes principales de l’application.
