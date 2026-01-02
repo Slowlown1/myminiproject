@@ -97,7 +97,7 @@
   <img width="1846" height="360" alt="image" src="https://github.com/user-attachments/assets/b08f7ee6-7be1-4823-8523-1686811f7de6" />
 
 # CONCLUSION
-    Pour conclure, nous avons développé une application robuste et complète qui répond à tous les besoins d'un garage.
+   Pour conclure, nous avons développé une application robuste et complète qui répond à tous les besoins d'un garage
    Nous avons non seulement créé l'intégralité du cycle (Client à Facture), mais nous avons aussi géré la complexité du 
    chargement en cascade, prouvant la fiabilité de notre accès aux données. Ce projet est solide, il est basé sur de bonnes pratiques
    logicielles (Pattern Repository), et il est prêt à être modernisé vers une interface graphique.
