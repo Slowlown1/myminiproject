@@ -78,6 +78,8 @@
 
     Gestion des dépendances.
     Structure standard du projet Maven
+  <img width="446" height="112" alt="image" src="https://github.com/user-attachments/assets/65d6dcbe-8439-4de8-b6b9-23646795b830" />
+
      =>Structure Maven du Projet
      src/main/java : Code source src/main/
      pom.xml
