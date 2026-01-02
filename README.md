@@ -68,6 +68,9 @@
     Langage : Java
     Programmation orientée objet
     Mode console
+    <img width="1107" height="384" alt="image" src="https://github.com/user-attachments/assets/b993f1e0-5d46-4efc-9b67-6bc6b417a56d" />        <img width="1777" height="304" alt="image" src="https://github.com/user-attachments/assets/a2af6f92-9d53-407c-a2ad-71c0a231483f" />
+
+
     Gestion des dépendances.
     Structure standard du projet Maven
      =>Structure Maven du Projet
