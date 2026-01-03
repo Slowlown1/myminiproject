@@ -35,17 +35,29 @@
 # 01 INTRODUCTION
 
       Dans le secteur de la réparation automobile, la croissance d'une clientèle entraîne inévitablement une 
+      
       complexification exponentielle des tâches administratives et opérationnelles. Les garagistes, dont le 
+      
       cœur de métier est avant tout technique,se retrouvent souvent submergés par :
+      
       La multiplication des dossiers papier : Fiches clients éparpillées, historiques de véhicules incomplets,
+      
       factures mal archivées.
+      
       La redondance des saisies : Recopier les informations du client sur le devis, puis sur la facture, puis 
+      
       sur le bon de commande des pièces.Les erreurs humaines : Calculs manuels erronés, oublis de suivi, confusion 
+      
       entre véhicules similaires.
+      
       L'inefficacité temporelle : Perdre un temps considérable à rechercher un historique de réparation ou à
+      
       constituer un devis détaillé.
+      
       Cette gestion manuelle fragmentée nuit à la fois à la productivité de l'atelier, à la qualité du service 
+      
       client et à la fiabilité de la comptabilité. Il existe donc un besoin critique de rationalisation et de
+      
       centralisation des données.
       
 # 02 PROBLEMATIQUE ET SOLUTION
@@ -210,6 +222,7 @@ Mode d’exécution :
 # 07 TESTER D'APPLICATION
 
   Ce test valide le bon fonctionnement du mécanisme de navigation entre les classes principales de l’application.
+  
   
   <img width="1799" height="475" alt="image" src="https://github.com/user-attachments/assets/c353b016-7ca2-4280-be95-793be86360c7" />
 
