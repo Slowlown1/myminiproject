@@ -123,33 +123,33 @@
 
 Gestion des clients:
 
-      Ajouter un client
+  Ajouter un client
 
-      Afficher la liste des clients
+  Afficher la liste des clients
 
-      Consulter les informations d’un client
+  Consulter les informations d’un client
 
  Gestion des véhicules :
 
-      Ajouter un véhicule à un client
+  Ajouter un véhicule à un client
 
-      Gérer les informations du véhicule (marque, modèle, immatriculation)
+  Gérer les informations du véhicule (marque, modèle, immatriculation)
 
 Gestion des réparations :
 
-     Enregistrer une réparation
-
-     Définir la date, la description et le coût de la réparation
+   Enregistrer une réparation
+  
+   Définir la date, la description et le coût de la réparation
 
  Gestion des factures :
 
-     Calculer automatiquement le total des réparations
+   Calculer automatiquement le total des réparations
 
-     Générer et afficher une facture détaillée
+   Générer et afficher une facture détaillée
 
 Mode d’exécution :
 
-     Application entièrement exécutée en mode console
+   Application entièrement exécutée en mode console
 
     
  # 04 OBJECTIFS DU PROJETÉ  
