@@ -17,14 +17,23 @@
 
 # PLAN
      01. Introduction
+     
      02. Problématique & solution
+     
      03. Objectifs du projet 
+     
      04. Fonctionalitées
+     
      05. Les technologies utilisées
+     
      06.L'intégration de la bases de données (MY SQL)
+     
      07. Tester l’application 
+     
      08. Conclusion
+     
 # 01 INTRODUCTION
+
       Dans le secteur de la réparation automobile, la croissance d'une clientèle entraîne inévitablement une 
       complexification exponentielle des tâches administratives et opérationnelles. Les garagistes, dont le 
       cœur de métier est avant tout technique,se retrouvent souvent submergés par :
@@ -38,27 +47,41 @@
       Cette gestion manuelle fragmentée nuit à la fois à la productivité de l'atelier, à la qualité du service 
       client et à la fiabilité de la comptabilité. Il existe donc un besoin critique de rationalisation et de
       centralisation des données.
+      
 # 02 PROBLEMATIQUE ET SOLUTION
+
    <img width="86" height="86" alt="image" src="https://github.com/user-attachments/assets/be9218d1-ac54-4e83-b6d8-3e41a63a9d24" /> 
    
    # PROBLÉMATIQUE 
    
    + Multiplicité des supports : Fiches clients papier, carnets de rendez-vous, bons de travail, factures carbone, commandes fournisseurs
+     
       - chaque document vit séparément.
-   + Absence de centralisation : Aucun point unique de vérité. L'historique d'un véhicule peut être réparti entre le classeur des clients, 
+        
+   + Absence de centralisation : Aucun point unique de vérité. L'historique d'un véhicule peut être réparti entre le classeur des clients,
+     
      le cahier de l'atelier et les archives comptables.
+     
    + Redondance des données : Les mêmes informations (coordonnées client, caractéristiques véhicule) sont recopiées manuellement sur 4 à 5 documents
+     
     différents, multipliant les risques d'erreur.
+    
    + Procédures non standardisées : Chaque employé peut avoir sa propre méthode pour enregistrer une réparation ou établir un devis.
+     
    + Chaînes d'information rompues : La réception note le problème, le mécanicien écrit son diagnostic sur un papier volant, le gérant calcule le prix
+     
       sur un coin de table.
+     
    + Manque de traçabilité : Impossible de retracer précisément qui a fait quoi, quand et avec quelles instructions.
+     
    + Planification aléatoire : Affectation manuelle des véhicules aux mécaniciens sans visibilité sur les compétences requises ou la charge de travail.
+     
    + Suivi en temps réel impossible : Le gérant doit physiquement faire le tour de l'atelier pour connaître l'état d'avancement des réparations.
     
   <img width="87" height="87" alt="image" src="https://github.com/user-attachments/assets/f6e620e2-923c-433c-9797-4fa7a5ef7de6" />
   
 # SOLUTION
+
     Développement d’une application Java en mode console
     
     Utilisation de structures en mémoire pour gérer les données
@@ -84,6 +107,7 @@
     Préparation du projet pour une évolution vers une interface graphique
     
 # 03 FONCTIONNALITÉ 
+
 Gestion des clients:
 
       Ajouter un client
@@ -116,6 +140,7 @@ Mode d’exécution :
 
     
  # 04 OBJECTIFS DU PROJETÉ  
+ 
     Développer une application Java simple permettant une gestion efficace
     
     et organisée d’un garage automobile.
@@ -131,15 +156,21 @@ Mode d’exécution :
     Appliquer les concepts de la programmation orientée objet en Java
     
 # 05 LES TECHNOLOGIES UTILISÉES 
-    Langage : Java                       
+
+    Langage : Java
+    
     Programmation orientée objet
+    
     Mode console
+    
   <img width="1107" height="384" alt="image" src="https://github.com/user-attachments/assets/81fff68e-9df0-4ff2-85cc-e337db5ba59d" />
       
 
 
     Gestion des dépendances.
+    
     Structure standard du projet Maven
+    
   <img width="446" height="112" alt="image" src="https://github.com/user-attachments/assets/65d6dcbe-8439-4de8-b6b9-23646795b830" />
 
      =>Structure Maven du Projet
@@ -177,6 +208,7 @@ Mode d’exécution :
 
 
 # 07 TESTER D'APPLICATION
+
   Ce test valide le bon fonctionnement du mécanisme de navigation entre les classes principales de l’application.
   
   <img width="1799" height="475" alt="image" src="https://github.com/user-attachments/assets/c353b016-7ca2-4280-be95-793be86360c7" />
@@ -191,12 +223,19 @@ Mode d’exécution :
   <img width="1846" height="360" alt="image" src="https://github.com/user-attachments/assets/b08f7ee6-7be1-4823-8523-1686811f7de6" />
 
 # 08 CONCLUSION
+
    Pour conclure, nous avons développé une application robuste et complète qui répond à 
+   
    tous les besoins d'un garage
+   
    Nous avons non seulement créé l'intégralité du cycle (Client à Facture), mais nous 
+   
    avons aussi géré la complexité du 
+   
    chargement en cascade, prouvant la fiabilité de notre accès aux données. 
+   
    Ce projet est solide, il est basé sur de bonnes pratiques
+   
    logicielles (Pattern Repository), et il est prêt à être modernisé vers une interface graphique.
    
 
