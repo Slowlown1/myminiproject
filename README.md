@@ -123,9 +123,9 @@
 
 Gestion des clients:
 
-  Ajouter un client
-
-  Afficher la liste des clients
+    Ajouter un client
+  
+    Afficher la liste des clients
 
   Consulter les informations d’un client
 
