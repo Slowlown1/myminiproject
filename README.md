@@ -40,6 +40,7 @@
       centralisation des données.
 # 02 PROBLEMATIQUE ET SOLUTION
    <img width="86" height="86" alt="image" src="https://github.com/user-attachments/assets/be9218d1-ac54-4e83-b6d8-3e41a63a9d24" /> 
+   
    # PROBLÉMATIQUE 
    
    + Multiplicité des supports : Fiches clients papier, carnets de rendez-vous, bons de travail, factures carbone, commandes fournisseurs
@@ -55,6 +56,8 @@
    + Planification aléatoire : Affectation manuelle des véhicules aux mécaniciens sans visibilité sur les compétences requises ou la charge de travail.
    + Suivi en temps réel impossible : Le gérant doit physiquement faire le tour de l'atelier pour connaître l'état d'avancement des réparations.
     
+  <img width="87" height="87" alt="image" src="https://github.com/user-attachments/assets/f6e620e2-923c-433c-9797-4fa7a5ef7de6" />
+  
 # SOLUTION
     Développement d’une application Java en mode console
     
