@@ -74,9 +74,9 @@
      
      le cahier de l'atelier et les archives comptables.
      
-   + Redondance des données : Les mêmes informations (coordonnées client, caractéristiques véhicule) sont recopiées manuellement sur 4 à 5 documents
-     
-    différents, multipliant les risques d'erreur.
+   + Redondance des données : Les mêmes informations (coordonnées client, caractéristiques véhicule) sont recopiées manuellement sur 4 à 5
+
+     documents différents, multipliant les risques d'erreur.
     
    + Procédures non standardisées : Chaque employé peut avoir sa propre méthode pour enregistrer une réparation ou établir un devis.
      
