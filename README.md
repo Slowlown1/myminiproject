@@ -40,6 +40,7 @@
 # 02 PROBLEMATIQUE ET SOLUTION
    <img width="86" height="86" alt="image" src="https://github.com/user-attachments/assets/be9218d1-ac54-4e83-b6d8-3e41a63a9d24" /> 
    # PROBLÉMATIQUE 
+   
    + Multiplicité des supports : Fiches clients papier, carnets de rendez-vous, bons de travail, factures carbone, commandes fournisseurs
       - chaque document vit séparément.
    + Absence de centralisation : Aucun point unique de vérité. L'historique d'un véhicule peut être réparti entre le classeur des clients, 
