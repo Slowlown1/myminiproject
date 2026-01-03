@@ -169,11 +169,8 @@ Mode d’exécution :
     
 # 05 LES TECHNOLOGIES UTILISÉES 
 
-  <img width="1777" height="304" alt="image" src="https://github.com/user-attachments/assets/681112bf-83d0-428b-a8a2-757965e0a370" />
-
     Langage : Java    
 
-    
     Programmation orientée objet
     
     Mode console
