@@ -148,7 +148,7 @@ Mode d’exécution :
 
 # 06 L'INTEGRATION DE LA BASES DE DONNÉES (MY SQL)
 
-Grâce à cette intégration :
+   Grâce à cette intégration :
 
 Les informations des clients, véhicules, réparations et factures sont désormais persistantes
 
@@ -163,6 +163,7 @@ la logique métier de l’application
 la gestion des données à travers la base de données
 
 L’intégration de MySQL constitue ainsi une étape importante dans l’évolution du projet
+
 et ouvre la voie à de futures améliorations, telles que :
 
 la gestion multi-utilisateurs
