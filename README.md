@@ -112,11 +112,18 @@ Mode d’exécution :
 
     
  # 04 OBJECTIFS DU PROJETÉ  
-    Développer une application Java simple permettant une gestion efficace et organisée d’un garage automobile.
-    Gérer les clients du garage
-    Associer des véhicules aux clients
-    Enregistrer les réparations effectuées
-    Générer une facture à partir des réparations
+    Développer une application Java simple permettant une gestion efficace
+    
+    et organisée d’un garage automobile.
+    
+    Gérer les clients du garage .
+    
+    Associer des véhicules aux clients .
+    
+    Enregistrer les réparations effectuées .
+    
+    Générer une facture à partir des réparations .
+    
     Appliquer les concepts de la programmation orientée objet en Java
     
 # 05 LES TECHNOLOGIES UTILISÉES 
