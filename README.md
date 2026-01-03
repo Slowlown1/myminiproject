@@ -148,29 +148,29 @@ Mode d’exécution :
 
 # 06 L'INTEGRATION DE LA BASES DE DONNÉES (MY SQL)
 
-   Grâce à cette intégration :
-
-Les informations des clients, véhicules, réparations et factures sont désormais persistantes
-
-Les données restent disponibles même après la fermeture et le redémarrage de l’application
-
-Le système devient plus proche d’une application professionnelle réelle
-
-Cette évolution a permis de séparer clairement :
-
-la logique métier de l’application
-
-la gestion des données à travers la base de données
-
-L’intégration de MySQL constitue ainsi une étape importante dans l’évolution du projet
-
-et ouvre la voie à de futures améliorations, telles que :
-
-la gestion multi-utilisateurs
-
-l’ajout de fonctionnalités avancées
-
-ou la migration vers une interface graphique
+       Grâce à cette intégration :
+    
+    Les informations des clients, véhicules, réparations et factures sont désormais persistantes
+    
+    Les données restent disponibles même après la fermeture et le redémarrage de l’application
+    
+    Le système devient plus proche d’une application professionnelle réelle
+    
+    Cette évolution a permis de séparer clairement :
+    
+    la logique métier de l’application
+    
+    la gestion des données à travers la base de données
+    
+    L’intégration de MySQL constitue ainsi une étape importante dans l’évolution du projet
+    
+    et ouvre la voie à de futures améliorations, telles que :
+    
+    la gestion multi-utilisateurs
+    
+    l’ajout de fonctionnalités avancées
+    
+    ou la migration vers une interface graphique
 
 
 # 07 TESTER D'APPLICATION
