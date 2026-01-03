@@ -197,7 +197,7 @@
 
 # 06 L'INTEGRATION DE LA BASES DE DONNÉES (MY SQL)
 
-     Grâce à cette intégration :
+  Grâce à cette intégration :
   
   Les informations des clients, véhicules, réparations et factures sont désormais persistantes
   
