@@ -59,6 +59,35 @@
     Utilisation de structures en mémoire pour gérer les données
     Organisation claire du code grâce à une architecture modulaire
 # 03 FONCTIONNALITÉ 
+Gestion des clients
+
+Ajouter un client
+
+Afficher la liste des clients
+
+Consulter les informations d’un client
+
+🚗 Gestion des véhicules
+
+Ajouter un véhicule à un client
+
+Gérer les informations du véhicule (marque, modèle, immatriculation)
+
+🔧 Gestion des réparations
+
+Enregistrer une réparation
+
+Définir la date, la description et le coût de la réparation
+
+🧾 Gestion des factures
+
+Calculer automatiquement le total des réparations
+
+Générer et afficher une facture détaillée
+Mode d’exécution
+
+Application entièrement exécutée en mode console
+
     Ajout, affichage et gestion des clients
     Gestion des véhicules (marque, modèle, immatriculation)
     Enregistrement des réparations (date, description, coût)
