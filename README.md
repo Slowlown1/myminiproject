@@ -56,9 +56,14 @@
     
 # SOLUTION
     Développement d’une application Java en mode console
+    
     Utilisation de structures en mémoire pour gérer les données
+    
     Organisation claire du code grâce à une architecture modulaire
-    Application des principes de la programmation orientée objet (POO) pour une meilleure structuration du code
+    
+    Application des principes de la programmation orientée objet (POO) 
+    
+    pour une meilleure structuration du code
 
     Séparation des responsabilités entre les classes (Client, Véhicule, Réparation, Facture)
 
@@ -73,6 +78,7 @@
     Possibilité d’intégrer ultérieurement une base de données pour la persistance des données
 
     Préparation du projet pour une évolution vers une interface graphique
+    
 # 03 FONCTIONNALITÉ 
 Gestion des clients:
 
