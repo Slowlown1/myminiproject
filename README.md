@@ -90,7 +90,8 @@ Mode d’exécution :
      Application entièrement exécutée en mode console
 
     
- # 04 OBJECTIFS DU PROJETÉ   
+ # 04 OBJECTIFS DU PROJETÉ  
+    Développer une application Java simple permettant une gestion efficace et organisée d’un garage automobile.
     Gérer les clients du garage
     Associer des véhicules aux clients
     Enregistrer les réparations effectuées
