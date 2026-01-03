@@ -21,8 +21,9 @@
      03. Objectifs du projet 
      04. Fonctionalitées
      05. Les technologies utilisées
-     06. Tester l’application 
-     07. Conclusion
+     06.L'intégration de la bases de données (MY SQL)
+     07. Tester l’application 
+     08. Conclusion
 # 01 INTRODUCTION
       Dans le secteur de la réparation automobile, la croissance d'une clientèle entraîne inévitablement une 
       complexification exponentielle des tâches administratives et opérationnelles. Les garagistes, dont le 
@@ -145,8 +146,33 @@ Mode d’exécution :
      target
   <img width="524" height="375" alt="image" src="https://github.com/user-attachments/assets/80d3f629-61fc-493b-8aca-94fa922224a0" />
 
+# 06 L'INTEGRATION DE LA BASES DE DONNÉES (MY SQL)
 
-# 06 TESTER D'APPLICATION
+Grâce à cette intégration :
+
+Les informations des clients, véhicules, réparations et factures sont désormais persistantes
+
+Les données restent disponibles même après la fermeture et le redémarrage de l’application
+
+Le système devient plus proche d’une application professionnelle réelle
+
+Cette évolution a permis de séparer clairement :
+
+la logique métier de l’application
+
+la gestion des données à travers la base de données
+
+L’intégration de MySQL constitue ainsi une étape importante dans l’évolution du projet
+et ouvre la voie à de futures améliorations, telles que :
+
+la gestion multi-utilisateurs
+
+l’ajout de fonctionnalités avancées
+
+ou la migration vers une interface graphique
+
+
+# 07 TESTER D'APPLICATION
   Ce test valide le bon fonctionnement du mécanisme de navigation entre les classes principales de l’application.
   
   <img width="1799" height="475" alt="image" src="https://github.com/user-attachments/assets/c353b016-7ca2-4280-be95-793be86360c7" />
@@ -160,7 +186,7 @@ Mode d’exécution :
     Affichage des données clients depuis la base de données.
   <img width="1846" height="360" alt="image" src="https://github.com/user-attachments/assets/b08f7ee6-7be1-4823-8523-1686811f7de6" />
 
-# 07 CONCLUSION
+# 08 CONCLUSION
    Pour conclure, nous avons développé une application robuste et complète qui répond à tous les besoins d'un garage
    Nous avons non seulement créé l'intégralité du cycle (Client à Facture), mais nous avons aussi géré la complexité du 
    chargement en cascade, prouvant la fiabilité de notre accès aux données. Ce projet est solide, il est basé sur de bonnes pratiques
