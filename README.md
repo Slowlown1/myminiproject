@@ -84,15 +84,12 @@ Définir la date, la description et le coût de la réparation
 Calculer automatiquement le total des réparations
 
 Générer et afficher une facture détaillée
+
 Mode d’exécution
 
 Application entièrement exécutée en mode console
 
-    Ajout, affichage et gestion des clients
-    Gestion des véhicules (marque, modèle, immatriculation)
-    Enregistrement des réparations (date, description, coût)
-    Calcul et affichage des factures
-    Exécution complète en mode console
+    
  # 04 OBJECTIFS DU PROJETÉ   
     Gérer les clients du garage
     Associer des véhicules aux clients
