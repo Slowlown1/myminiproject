@@ -67,7 +67,7 @@
       
    centralisation des données.
       
-# 02 PROBLEMATIQUE ET SOLUTION
+# 02 PROBLÉMATIQUE ET SOLUTIONS
 
    <img width="86" height="86" alt="image" src="https://github.com/user-attachments/assets/be9218d1-ac54-4e83-b6d8-3e41a63a9d24" /> 
    
@@ -99,7 +99,7 @@
     
   <img width="87" height="87" alt="image" src="https://github.com/user-attachments/assets/f6e620e2-923c-433c-9797-4fa7a5ef7de6" />
   
-# SOLUTION
+# SOLUTIONS
 
   Développement d’une application Java en mode console
   
@@ -125,7 +125,7 @@
 
   Préparation du projet pour une évolution vers une interface graphique
     
-# 03 FONCTIONNALITÉ 
+# 03 FONCTIONNALITÉS 
 
 => Gestion des clients:
 
@@ -158,7 +158,7 @@
    Application entièrement exécutée en mode console
 
     
- # 04 OBJECTIFS DU PROJETÉ  
+ # 04 OBJECTIFS DU PROJET 
  
   Développer une application Java simple permettant une gestion efficace
   
@@ -206,7 +206,7 @@
    
   <img width="524" height="375" alt="image" src="https://github.com/user-attachments/assets/80d3f629-61fc-493b-8aca-94fa922224a0" />
 
-# 06 L'INTEGRATION DE LA BASES DE DONNÉES (MY SQL)
+# 06 L'INTÉGRATION DE LA BASE DE DONNÉES (MY SQL)
 
   Grâce à cette intégration :
   
@@ -233,7 +233,7 @@
   ou la migration vers une interface graphique
 
 
-# 07 TESTER D'APPLICATION
+# 07 TESTER L'APPLICATION
 
   Ce test valide le bon fonctionnement du mécanisme de navigation entre les classes principales de l’application.
   
